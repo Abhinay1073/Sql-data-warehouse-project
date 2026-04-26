@@ -11,13 +11,12 @@ It is designed to replicate a real-world data engineering workflow, transforming
 🗂️ Project Structure
 SQL-Data-Warehouse-Project/
 │
-├── datasets/        # Raw datasets (CSV, Excel, etc.)
-
-├── Scripts/         # SQL scripts (ETL, transformations, table creation)
-├── docs/            # Documentation, diagrams, and design notes
-├── tests/           # Test queries and validation scripts
-├── LICENSE          # Project license
-└── README.md        # Project documentation
+├── datasets/       
+├── Scripts/         
+├── docs/            
+├── tests/           
+├── LICENSE          
+└── README.md        
 
 ##🚀 Key Features
 🔹 End-to-End ETL Pipeline
@@ -90,10 +89,9 @@ Integration with Power BI / Tableau
 Automation using SSIS
 Cloud deployment (Azure / AWS)
 Real-time data processing
-🤝 Contributing
 
+🤝 Contributing
 Feel free to fork this repository and contribute by submitting pull requests.
 
 📜 License
-
 This project is licensed under the terms of the LICENSE file.
