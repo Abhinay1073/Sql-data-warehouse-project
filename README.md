@@ -8,7 +8,6 @@ It is designed to simulate a real-world data engineering workflow, transforming 
 🗂️ Project Structure
 
 SQL-Data-Warehouse-Project
-│
 ├── datasets       
 ├── Scripts        
 ├── docs           
