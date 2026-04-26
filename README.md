@@ -20,15 +20,10 @@ SQL-Data-Warehouse-Project/
 
 ##🚀 Key Features
 🔹 End-to-End ETL Pipeline
-
 🔹 Data Cleaning & Transformation
-
 🔹 Star Schema Data Modeling
-
 🔹 Fact and Dimension Tables
-
 🔹 Analytical SQL Queries
-
 🔹 Modular and Scalable Design
 
 ##🏗️ Data Warehouse Architecture
