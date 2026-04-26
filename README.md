@@ -6,8 +6,8 @@ This project focuses on building a modern data warehouse using SQL Server, cover
 It is designed to simulate a real-world data engineering workflow, transforming raw datasets into structured, analysis-ready data for better decision-making.
 
 🗂️ Project Structure
-SQL-Data-Warehouse-Project
 
+SQL-Data-Warehouse-Project
 │
 ├── datasets/        
 ├── Scripts/         
