@@ -6,14 +6,15 @@ This project focuses on building a modern data warehouse using SQL Server, cover
 It is designed to simulate a real-world data engineering workflow, transforming raw datasets into structured, analysis-ready data for better decision-making.
 
 🗂️ Project Structure
-SQL-Data-Warehouse-Project/
+SQL-Data-Warehouse-Project
 │
 ├── datasets/        
 ├── Scripts/         
 ├── docs/            
 ├── tests/           
 ├── LICENSE          
-└── README.md        
+└── README.md   
+
 🚀 Key Features
 🔹 End-to-End ETL Pipeline
 🔹 Data Cleaning & Transformation
@@ -21,8 +22,8 @@ SQL-Data-Warehouse-Project/
 🔹 Fact and Dimension Tables
 🔹 Analytical SQL Queries
 🔹 Modular and Scalable Design
-🏗️ Data Warehouse Architecture
 
+🏗️ Data Warehouse Architecture
 This project follows a 3-layer architecture:
 🔸 Staging Layer
 Raw data is loaded without heavy transformation
