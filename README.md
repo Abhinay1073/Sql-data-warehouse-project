@@ -9,10 +9,10 @@ It is designed to simulate a real-world data engineering workflow, transforming 
 
 SQL-Data-Warehouse-Project
 │
-├── datasets/        
-├── Scripts/         
-├── docs/            
-├── tests/           
+├── datasets       
+├── Scripts        
+├── docs           
+├── tests           
 ├── LICENSE          
 └── README.md   
 
