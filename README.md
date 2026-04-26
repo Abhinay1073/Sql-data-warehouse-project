@@ -45,29 +45,14 @@ Standardize formats
 3. Load
 Load data into staging tables
 Insert into warehouse schema
+
 🧩 Data Modeling Approach
-⭐ Star Schema Design
+    ⭐ Star Schema Design
 
 Fact Tables
-
-Store measurable data (e.g., sales, transactions)
-
+    . Store measurable data (e.g., sales, transactions)
 Dimension Tables
-
-Store descriptive attributes (e.g., customer, product)
-
-🛠️ Tech Stack
-SQL Server
-T-SQL
-SQL Server Management Studio (SSMS)
-Data Warehousing Concepts
-📊 Sample Query
--- Example: Total Sales by Category
-SELECT d.Category, SUM(f.SalesAmount) AS TotalSales
-FROM FactSales f
-JOIN DimProduct d 
-    ON f.ProductID = d.ProductID
-GROUP BY d.Category;
+    . Store descriptive attributes (e.g., customer, product)
 
 🧪 Testing
 The tests/ folder includes:
