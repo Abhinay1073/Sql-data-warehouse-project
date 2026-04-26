@@ -1,10 +1,9 @@
-# Sql-data-warehouse-project
+
 Building a modern data warehouse with SQL Server, including ETL  processes, data modeling , and analytics.
 
 
-📊 SQL Data Warehouse Project
+## 📊 SQL Data Warehouse Project
 📌 Overview
-
 This project demonstrates the development of a modern data warehouse using SQL Server, covering end-to-end processes including data ingestion, ETL pipelines, data modeling, and analytical querying.
 
 It is designed to replicate a real-world data engineering workflow, transforming raw datasets into structured, analysis-ready data.
@@ -13,22 +12,23 @@ It is designed to replicate a real-world data engineering workflow, transforming
 SQL-Data-Warehouse-Project/
 │
 ├── datasets/        # Raw datasets (CSV, Excel, etc.)
+
 ├── Scripts/         # SQL scripts (ETL, transformations, table creation)
 ├── docs/            # Documentation, diagrams, and design notes
 ├── tests/           # Test queries and validation scripts
 ├── LICENSE          # Project license
 └── README.md        # Project documentation
-🚀 Key Features
+
+##🚀 Key Features
 🔹 End-to-End ETL Pipeline
 🔹 Data Cleaning & Transformation
 🔹 Star Schema Data Modeling
 🔹 Fact and Dimension Tables
 🔹 Analytical SQL Queries
 🔹 Modular and Scalable Design
-🏗️ Data Warehouse Architecture
 
+##🏗️ Data Warehouse Architecture
 This project follows a 3-layer architecture:
-
 🔸 Staging Layer
 Raw data is loaded without heavy transformation
 Used as a temporary storage layer
@@ -38,7 +38,8 @@ Organized into fact and dimension tables
 🔸 Analytics Layer
 Supports reporting and business queries
 Optimized for performance and insights
-🔄 ETL Workflow
+
+##🔄 ETL Workflow
 Extract
 Import data from source files (CSV/Excel)
 Transform
@@ -48,11 +49,13 @@ Standardize formats
 Load
 Load into staging tables
 Insert into warehouse schema
-🧩 Data Modeling Approach
+
+##🧩 Data Modeling Approach
 ⭐ Star Schema Design
 📌 Fact Tables: Store measurable data (e.g., sales, transactions)
 📌 Dimension Tables: Store descriptive attributes (e.g., customer, product)
-🛠️ Tech Stack
+
+##🛠️ Tech Stack
 SQL Server
 T-SQL
 SQL Server Management Studio (SSMS)
@@ -63,8 +66,8 @@ SELECT d.Category, SUM(f.SalesAmount) AS TotalSales
 FROM FactSales f
 JOIN DimProduct d ON f.ProductID = d.ProductID
 GROUP BY d.Category;
-🧪 Testing
 
+##🧪 Testing
 The tests/ folder includes:
 
 Data validation queries
