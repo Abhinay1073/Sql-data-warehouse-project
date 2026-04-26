@@ -8,12 +8,12 @@ It is designed to simulate a real-world data engineering workflow, transforming 
 🗂️ Project Structure
 SQL-Data-Warehouse-Project/
 │
-├── datasets/        # Raw datasets (CSV, Excel, etc.)
-├── Scripts/         # SQL scripts (ETL, transformations, table creation)
-├── docs/            # Documentation, diagrams, and design notes
-├── tests/           # Testing and validation queries
-├── LICENSE          # Project license
-└── README.md        # Project documentation
+├── datasets/        
+├── Scripts/         
+├── docs/            
+├── tests/           
+├── LICENSE          
+└── README.md        
 🚀 Key Features
 🔹 End-to-End ETL Pipeline
 🔹 Data Cleaning & Transformation
@@ -24,7 +24,6 @@ SQL-Data-Warehouse-Project/
 🏗️ Data Warehouse Architecture
 
 This project follows a 3-layer architecture:
-
 🔸 Staging Layer
 Raw data is loaded without heavy transformation
 Acts as a temporary storage layer
@@ -54,6 +53,7 @@ Store measurable data (e.g., sales, transactions)
 Dimension Tables
 
 Store descriptive attributes (e.g., customer, product)
+
 🛠️ Tech Stack
 SQL Server
 T-SQL
@@ -66,25 +66,25 @@ FROM FactSales f
 JOIN DimProduct d 
     ON f.ProductID = d.ProductID
 GROUP BY d.Category;
+
 🧪 Testing
-
 The tests/ folder includes:
-
 Data validation queries
 Integrity checks
 ETL testing scripts
 📚 Documentation
 
 The docs/ folder includes:
-
 Data model diagrams
 Architecture design
 Process flow documentation
+
 🎯 Learning Outcomes
 Understanding Data Warehouse Design
 Building ETL Pipelines using SQL
 Writing optimized SQL queries
 Applying dimensional modeling techniques
+
 🔮 Future Enhancements
 Integration with Power BI / Tableau
 Automation using SSIS
